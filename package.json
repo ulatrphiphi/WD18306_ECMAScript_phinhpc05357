@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "husky": "^8.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "npx eslint **.js"
+  }
+}
